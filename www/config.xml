@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.splashtester263855" version="0.0.1" xmlns="http://www.w3.org/ns/widgets"
+        xmlns:cdv="http://cordova.apache.org/ns/1.0"     xmlns:gap   = "http://phonegap.com/ns/1.0">
+  <name>SplashTester</name>
+  <description>
+        An Ionic Framework and Cordova project.
+    </description>
+  <author email="hi@ionicframework" href="http://ionicframework.com/">
+      Ionic Framework Team
+    </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="BackupWebStorage" value="none"/>
+    <preference name="SplashScreen" value="splash" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="SplashScreenDelay" value="10000"/>
+
+    <icon src="www/icon.png" />
+
+    <gap:splash src="splash.png" />
+    <gap:splash src="www/images/splash/splash-portrait-320x480.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="www/images/splash/splash-portrait-640x960.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash src="www/images/splash/splash-portrait-640x1136.png" gap:platform="ios" width="640" height="1136" />
+    <gap:splash src="www/images/splash/splash-portrait-768x1004.png" gap:platform="ios" width="768" height="1004" />
+    <gap:splash src="www/images/splash/splash-portrait-1536x2008.png" gap:platform="ios" width="1536" height="2008" />
+
+
+    <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+</widget>
