@@ -25,6 +25,9 @@
 
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <preference name="SplashScreen" value="splash" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value=".25" />
+
     <preference name="AutoHideSplashScreen" value="false" />
 <!--    <preference name="SplashScreenDelay" value="10000"/>-->
 
