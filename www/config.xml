@@ -18,6 +18,8 @@
 
     <icon src="icon.png" />
 
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.console" />
     <gap:plugin name="org.apache.cordova.inappbrowser" />
     <gap:plugin name="com.ionic.keyboard" />
 
