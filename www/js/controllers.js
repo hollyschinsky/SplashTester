@@ -1,10 +1,26 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {
-            console.log("Dash Ctrl");
-    try{
-        navigator.splashscreen.hide();
-    } catch (ex) { console.log("navigator.splashscreen is not supported on this platform"); }
+.controller('DashCtrl', function($scope,$timeout) {
+    console.log("Dash Ctrl");
+    /*try{
+     navigator.splashscreen.hide();
+     } catch (ex) { console.log("navigator.splashscreen is not supported on this platform"); }*/
+
+    $scope.hideSpashScreen = function() {
+        alert("Call to hide");
+        $timeout(function() {
+            try{
+                navigator.splashscreen.hide();
+            } catch (ex) { console.log("navigator.splashscreen is not supported on this platform"); }
+        }, 0);
+    };
+
+    document.addEventListener("deviceready", function(e) {
+        alert("Device is ready");
+        $timeout(function() {
+            $scope.hideSpashScreen();
+        }, 2000);
+    });
 
 })
 
