@@ -1,7 +1,7 @@
 angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope,$timeout) {
-    console.log("Dash Ctrl");
+    alert("Dash Ctrl");
     /*try{
      navigator.splashscreen.hide();
      } catch (ex) { console.log("navigator.splashscreen is not supported on this platform"); }*/
