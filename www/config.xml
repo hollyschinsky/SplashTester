@@ -29,7 +29,7 @@
     <!--<preference name="FadeSplashScreenDuration" value=".25" />-->
 
     <preference name="auto-hide-splash-screen" value="true" />
-    <preference name="splash-screen-delay" value="10000"/>
+    <preference name="splash-screen-duration" value="10000"/>
     <preference name="ShowSplashScreenSpinner" value="true"/>
 
     <gap:splash src="splash.png" />
