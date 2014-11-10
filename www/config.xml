@@ -18,14 +18,15 @@
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="SplashScreenDelay" value="10000"/>
 
+
     <icon src="icon.png" />
 
     <gap:splash src="splash.png" />
-    <gap:splash src="www/images/splash/splash-portrait-320x480.png" gap:platform="ios" width="320" height="480" />
-    <gap:splash src="www/images/splash/splash-portrait-640x960.png" gap:platform="ios" width="640" height="960" />
-    <gap:splash src="www/images/splash/splash-portrait-640x1136.png" gap:platform="ios" width="640" height="1136" />
-    <gap:splash src="www/images/splash/splash-portrait-768x1004.png" gap:platform="ios" width="768" height="1004" />
-    <gap:splash src="www/images/splash/splash-portrait-1536x2008.png" gap:platform="ios" width="1536" height="2008" />
+    <gap:splash src="images/splash/splash-portrait-320x480.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="images/splash/splash-portrait-640x960.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash src="images/splash/splash-portrait-640x1136.png" gap:platform="ios" width="640" height="1136" />
+    <gap:splash src="images/splash/splash-portrait-768x1004.png" gap:platform="ios" width="768" height="1004" />
+    <gap:splash src="images/splash/splash-portrait-1536x2008.png" gap:platform="ios" width="1536" height="2008" />
 
 
     <feature name="StatusBar">
