@@ -39,7 +39,7 @@
     </gap:config-file>
 
     <preference name="splash-screen-delay" value="10000"/>
-    <preference name="orientation" value="landscape"/>
+
 
 
     <gap:splash src="splash.png" />

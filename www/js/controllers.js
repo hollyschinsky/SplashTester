@@ -7,7 +7,6 @@ angular.module('starter.controllers', [])
      } catch (ex) { console.log("navigator.splashscreen is not supported on this platform"); }*/
 
     $scope.hideSpashScreen = function() {
-        alert("Call to hide");
         $timeout(function() {
             try{
                 navigator.splashscreen.hide();
