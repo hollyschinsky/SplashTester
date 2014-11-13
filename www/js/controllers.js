@@ -16,7 +16,7 @@ angular.module('starter.controllers', [])
     };
 
     document.addEventListener("deviceready", function(e) {
-        alert("Device is ready");
+        alert("This Device is ready");
         $timeout(function() {
             $scope.hideSpashScreen();
         }, 2000);
