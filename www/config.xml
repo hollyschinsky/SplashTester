@@ -29,8 +29,9 @@
     <!--<preference name="FadeSplashScreenDuration" value=".25" />-->
 
     <preference name="auto-hide-splash-screen" value="false" />
-    <preference name="splash-screen-delay" value="10000"/>
+
     <preference name="fullscreen" value="true" />
+    <preference name="splash-screen-delay" value="10000"/>
 
 
     <gap:splash src="splash.png" />
