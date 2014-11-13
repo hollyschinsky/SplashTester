@@ -31,6 +31,13 @@
     <preference name="auto-hide-splash-screen" value="false" />
 
     <preference name="fullscreen" value="true" />
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+        <string>false</string>
+    </gap:config-file>
+    <gap:config-file platform="ios" parent="UIStatusBarHidden" overwrite="true">
+        <string>true</string>
+    </gap:config-file>
+
     <preference name="splash-screen-delay" value="10000"/>
 
 
